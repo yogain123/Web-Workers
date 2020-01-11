@@ -18,7 +18,7 @@ worker.onmessage = function(e){
 **worker.onmessage** will keep on listening to message which is posted
 
 - JS is Single Thread, Non - Blocking I/O operations eg: Web API is been put into callstack queue for waiting, but eventually it also get executing in main thread only after Call Stack is empty.
-- Web Worker Actually Create a pool of Worker, or Spawn new Thread out of it to execute give task, or any heavy Calculations.
+- Web Worker Actually Create a pool of Worker, or Spawn new Thread out of it to execute given task, or any heavy Calculations.
 - A Spawned Thread Can also Spawn a new thread out of it and it can go as many as possible.
 - Worker Post Message by worker.postMessage(message)
 - Worker Listen to Message by worker.onmessage = fn
