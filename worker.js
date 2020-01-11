@@ -1,4 +1,8 @@
 this.onmessage = function(e) {
-  console.log(e.data);
-  this.postMessage({ result: e.data.num1 + e.data.num2 });
+  let limit = e.data;
+  let count = 0;
+  for (let i = 0; i <= limit; i++) {
+    count++;
+  }
+  this.postMessage(count);
 };

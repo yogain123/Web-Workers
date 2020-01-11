@@ -25,6 +25,6 @@ worker.onmessage = function(e){
 
 > All in all It Spawn a new Thread out of main thread to do some other calculation or work, so the main script won't be blocked and calculation will happen in new Spawned thread.
 
-> The Above Example Shows to Add 2 number, and that 2 number is not getting added by main thread, but getting added by Web Worker eg: New spawn Thread.
+> The Above Example Shows running heavy calculation "for" loop , and that calculation is not running in main thread, but getting run by Web Worker eg: New spawn Thread.
 
 ###### Author: Yogendra
