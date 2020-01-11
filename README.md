@@ -27,4 +27,6 @@ worker.onmessage = function(e){
 
 > The Above Example Shows running heavy calculation "for" loop , and that calculation is not running in main thread, but getting run by Web Worker eg: New spawn Thread.
 
+ ##### NOTE: Web Worker Does not have access to DOM elements 
+
 ###### Author: Yogendra
